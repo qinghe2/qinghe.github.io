@@ -6,7 +6,7 @@ $light-gray: #EEE;
 
 /* Space out content a bit */
 body {
-    padding-top: 20px;
+    padding-top: 18px;
 }
 
 .header {
@@ -14,22 +14,23 @@ body {
     padding-bottom: 10px;
     margin-bottom: 20px;
     text-align: center;
+    background-color: $pink 
 }
 
 .footer {
     /* padding-top: 19px; */
-    color: $gray;
-    border-top: 1px solid $light-gray;
+    color: $pink;
+    border-top: 1px solid $light-pink;
     text-align: center;
     font-size: 0.8em;
 
     a:link, a:visited {
-        color: $gray;
+        color: $pink;
     }
 }
 
 .fa {
-    color: $gray;
+    color: $pink;
 }
 a > .fa {
     // make sure that font-awesome icons are underlined in links
@@ -46,14 +47,14 @@ a > .fa {
 /* Jumbotron */
 .jumbotron {
     text-align: justify;
-    padding-top: 1.5em;
-    padding-bottom: 0.5em;
-    font-size: 125%
+    padding-top: 2em;
+    padding-bottom: 1em;
+    font-size: 150%
 }
 
 /* Group logo */
 #logo {
-    width: 600px;
+    width: 700px;
     height: auto;
     margin: 2px 0 2px 0;
 }
@@ -62,12 +63,12 @@ a > .fa {
 ul.news {
 
     .date {
-        color: $gray;
+        color: $pink;
         font-weight: bold;
     }
 
     > li {
-        margin-top: 1em;
+        margin-top: 1.5em;
     }
 }
 
@@ -83,7 +84,7 @@ ul.news {
 }
 
 .title img {
-    max-width: 60%;
+    max-width: 65%;
 }
 
 section {
